@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useFindAndModify", false);
-mongoose.set("useCreateIndex", true);
+//mongoose.set("useCreateIndex", true);
 mongoose
   .connect(mongoURI)
   .then(() => console.log("db connection successful"))
